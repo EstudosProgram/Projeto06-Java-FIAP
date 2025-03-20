@@ -26,10 +26,10 @@ public class Main {
         System.out.printf("Temperatura atual: %dºC%nModo: %s%n",usar.temperatura, usar.modo);
 
         FolhaDePagamento salario = new FolhaDePagamento();
-        salario.salarioBruto = 2000.00;
-        salario.numeroDeDependentes = 1;
-        salario.valorPlanoSaude = 200.00;
-        salario.descontoINSS = 10;
+        salario.salarioBruto = 10000;
+        salario.numeroDeDependentes = 4;
+        salario.valorPlanoSaude = 400;
+        salario.descontoINSS = 15;
         salario.calcularSalarioLiquido();
 
         System.out.printf("Seu salário liquido é: R$ %.2f", salario.calcularSalarioLiquido());
